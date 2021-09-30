@@ -89,7 +89,7 @@
 
 
 
-      <a href="/company/company.html" class="stretchbtn my-lg-5 my-3"><span class="me-3">More</span></a>
+      <a href=" <?php echo esc_url( home_url('/company')); ?>" class="stretchbtn my-lg-5 my-3"><span class="me-3">More</span></a>
     </div>
   </section>
 
@@ -169,7 +169,7 @@
     </ul>
 
     <div class="container">
-      <a href="/business/business.html" class="stretchbtn mb-5"><span class="me-3">More</span></a>
+      <a href=" <?php echo esc_url( home_url('/business')); ?>" class="stretchbtn mb-5"><span class="me-3">More</span></a>
     </div>
   </section>
 
@@ -181,7 +181,7 @@
           <h2 class="Typing">NEWS</h2>
           <p class="description">- ニュース</p>
           <div class="mt-auto p-2 mb-4">
-            <a href="/news/news.html" class="stretchbtn"><span class="me-3">More</span></a>
+            <a href=" <?php echo esc_url( home_url('/news')); ?>" class="stretchbtn"><span class="me-3">More</span></a>
           </div>
         </div>
       </div>
@@ -199,7 +199,7 @@
           <?php endif; ?>
         </ul>
         <div class="d-md-none my-5 text-center">
-          <a href="/news/news.html" class="stretchbtn"><span class="me-3">More</span></a>
+          <a href=" <?php echo esc_url( home_url('/news')); ?>" class="stretchbtn"><span class="me-3">More</span></a>
         </div>
       </div>
     </div>
@@ -215,7 +215,7 @@
           <p>司法書士有資格者はもちろんのこと、未経験の方、これから資格取得を目指す方も歓迎いたします。</p>
         </div>
         <div class="mt-auto p-2">
-          <a href="/recruit/recruit.html" class="stretchbtn "><span class="me-3">More</span></a>
+          <a href=" <?php echo esc_url( home_url('/recruit')); ?>" class="stretchbtn "><span class="me-3">More</span></a>
         </div>
       </div>
       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/top/recruit.jpg" alt="">
