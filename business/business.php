@@ -5,19 +5,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
 <title>取扱い業務｜士業テンプレート1</title>
-<meta name="description"  content="">
-<meta name="robots" content="noindex,nofollow">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/animation.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/parts.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/style.css">
+<?php get_header(); ?>
+
 </head>
 <body>
 
@@ -37,11 +27,7 @@
         <li><a href=" <?php echo esc_url( home_url('/recruit')); ?>">採用情報</a></li>
       </ul>
     </nav>
-  </header>
-
-  <!-- mobile-menu -->
-  <div class="openbtn d-lg-none"><span></span><span></span><span></span></div>
-  <?php get_template_part('includes/c-header'); ?>     
+  </header>   
 
   <!-- top_company -->
   <section id="thumbnail" class="position-relative">
@@ -170,11 +156,8 @@
     </div>
 
   </section>
+  <?php get_footer(); ?>
 
-
-
-  <!-- footer -->
-  <?php get_template_part('includes/c-footer'); ?>      
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
